@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package MoveTest;
 
 import java.awt.Color;
@@ -12,16 +8,13 @@ import java.awt.event.KeyListener;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-/**
- *
- * @author Leon Busert
- */
+
 public class Frame extends JFrame{
-    private Screen screen;
+    private final Screen screen;
     
     float player_posx = 300;
     float player_posy = 300;
-    private int player_size = 50;
+    private final int player_size = 50;
     
     private boolean key_up = false;
     private boolean key_down = false;
